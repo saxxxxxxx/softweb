@@ -953,19 +953,10 @@ ul li a:hover{
 ```
 ## OUTPUT:
 
-![alt text](<../../../Screenshot 2024-04-28 193619.png>)
-![alt text](<../../../Screenshot 2024-04-28 193722.png>)
-![alt text](<../../../Screenshot 2024-04-28 193736.png>)
-![alt text](<../../../Screenshot 2024-04-28 193706.png>)
-
-
-
-
-
-
-
-
-
+![alt text](<Screenshot 2024-04-28 193619.png>)
+![alt text](<Screenshot 2024-04-28 193706.png>)
+![alt text](<Screenshot 2024-04-28 193722.png>)
+![alt text](<Screenshot 2024-04-28 193736.png>)
 
 
 
