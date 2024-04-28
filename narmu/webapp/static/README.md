@@ -30,7 +30,7 @@ Publish the website in the given URL.
 ## PROGRAM:
 
 
-## OUTPUT:
+
 ```
 index.html
 
@@ -951,6 +951,18 @@ ul li a:hover{
 </body>
 </html>
 ```
+## OUTPUT:
+
+![alt text](<../../../Screenshot 2024-04-28 193619.png>)
+![alt text](<../../../Screenshot 2024-04-28 193722.png>)
+![alt text](<../../../Screenshot 2024-04-28 193736.png>)
+![alt text](<../../../Screenshot 2024-04-28 193706.png>)
+
+
+
+
+
+
 
 
 
