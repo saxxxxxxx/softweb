@@ -953,10 +953,10 @@ ul li a:hover{
     </html>
  ```
  ## OUTPUT:
+![alt text](<Screenshot 2024-05-06 142502.png>)
 ![alt text](<Screenshot 2024-05-06 142524.png>)
 ![alt text](<Screenshot 2024-05-06 142539.png>)
 ![alt text](<Screenshot 2024-05-06 142557.png>)
-![alt text](<Screenshot 2024-05-06 142502.png>)
 
 ## RESULT:
 The program for designing sofware company website using HTML and CSS is completed successfully.
