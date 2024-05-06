@@ -39,7 +39,7 @@ index.html
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>TATA MOTORS</title>
+    <title>NH</title>
     <style>
       *{
     margin: 0px;
@@ -319,7 +319,7 @@ transition: 0.5s;
     </style>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
 </head>
-<body style="background-image: url(car.jpg);">
+<body style="background-image: url(se.jpg);">
     <header>
         <div class="main">
             <ul>
@@ -337,7 +337,8 @@ transition: 0.5s;
             <img src="logo.jpg" alt="" width="200px" height="200px">
         </div>
         <div class="title" >
-            <h1><b>Driving Tommorow: Tata Motors,<br>where innovation meets the open road</b></h1>
+            <h1><b>
+              "Learning a new programming language <br> is like adding a new tool to your toolbox of skills."</b></h1>
         </div>
         <div class="form">
             <h2>Login Here</h2>
@@ -373,10 +374,217 @@ transition: 0.5s;
           </div>
 
         <div class="t">
-            <h1><b>“Innovation is taking two things that <br>already exist and putting them together in a new way<br>-Ratan Tata”</b></h1>
+            <h1><b>"Learning new skills is the key to <br>unlocking endless possibilities <br>and realizing your full potential."</b></h1>
         </div>
 
        
+</body>
+</html>
+
+people.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body{
+      background: linear-gradient(rgb(0, 0, 0) , rgb(31, 5, 110) );
+    }
+    
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    min-height: 10%;
+    margin-right: 60px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: double;
+    color: #ffffff;
+    padding: 5px 50px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+.search{
+    width: 330px;
+    float:right;
+    margin-right: 20px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid#ffffff;
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+
+}
+      
+        footer{
+
+        background-color:black;
+        height:30px;
+        bottom:0;
+        width:100%;
+        color:white;
+        position:absolute;
+        
+        }
+        header
+        {
+        background-color:darkblue;
+        height:10vh;
+        width:100%;
+        color:white;
+        }
+        header h2{
+        position:absolute;
+        color:white;
+        margin-top:10px;
+        margin-left:10px;
+        }
+        .search input{
+            width:18%;
+            height: 30px;
+
+        }
+        .search button{
+            color:white;
+            background-color: rgb(2, 3, 4);
+            padding: 5px;
+            text-align: center;
+        }
+        .search input,button{
+            position: absolute;
+            right: 880px;
+            font-size: 18px;
+            border-color:silver;
+        }
+        .small
+        {
+           width:200px;
+           height:200px;
+           margin:10px;
+        }
+        .border{
+        border-width:5px;
+        border-color:lightblue;
+        border-style:solid;
+        border-radius:50%;
+        }
+        .cirpic{
+            position:absolute;
+            top:35%;
+            margin-left: 40px;
+            padding: 0px;
+            
+        }
+        .text{
+           position: absolute;
+            top:55%;
+            margin-left: 20px;
+            font-size: 16px;
+            
+        }
+        .text2{
+            position:absolute;
+            top:61%;
+            margin-left:58px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+        
+        <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="people.html">PEOPLE</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="search" >
+        <input class="srch" type="search" name="" placeholder="type to search">
+        <a href="#"><button class="btn">Search</button></a>
+    </div>
+        <div class="cirpic">
+            <img class="small border" src="narmu.jpg" width="400px">
+            <img class="small border" src="RATAN.jpg" width="400px" >
+            <img class="small border" src="MUKESH.jpg" width="400px">
+            <img class="small border" src="SIMONE.jpg" width="400px" >
+            <img class="small border" src="NOEL.jpg" width="400px">
+            <img class="small border" src="MEGHA.jpg" width="400px" >
+        </div>
+        <div class ="text">
+            <table cellpadding="87">
+                <tr div class="head">
+                    <th>NARMADHA</th>
+                    <th>RATAN </th>
+                    <th>MUKESH </th>
+                    <th>SIMONE </th>
+                    <th>NOEL </th>
+                    <th>MEGHA </th>
+                </tr>
+            </table>
+        </div>
+        <div class="text2">
+            <table cellpadding="83">
+                <tr>
+                    <td>CEO</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO<br>Co-Founder</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTO<br>Co-Founder</td>
+                    <td>Director</td>
+                    <td>Asst.Director</td>
+                    <td>Dy.Director</td>
+                </tr>
+            </table>
+        </div>
+    
+        <footer>
+             <p>Copyright @2024 Developed by NARMADHA S &copy; </p>
+      </footer>
+               
 </body>
 </html>
 
@@ -496,10 +704,10 @@ products.html
           <a href="#"><button class="btn">Search</button></a>
       </div>
      <div class="h1">
-      <h1> SERVICES BY TATA MOTORS>!</h1>
+      <h1> programming languages</h1>
       </div>
       <div class="im">
-  <img src="services.jpg" alt="" width="850px" height="450px">
+  <img src="language.webp" alt="" width="850px" height="450px">
   </div>
   
   </body>
@@ -730,7 +938,7 @@ ul li a:hover{
         <div class="info">
             <h3 id="ci" >Contact Information</h3><br>
             <b>Address: </b>No.8 (NP)Developed Plot, Industrial Estate, Ekkatuthangal, Chennai, Tamil Nadu 600032. <br><br>
-            <b>Email: </b>tatamotors@gmail.com<br>
+            <b>Email: </b>nh5757@gmail.com<br>
             <b>Phone: </b>
 
             +914442671111
@@ -738,227 +946,20 @@ ul li a:hover{
         <div class="vl"></div>
     </div>
     <footer>
-        <p>Copyright @2023Developed By: NARMADHA S &copy;</p>
+        <p>Copyright @2024Developed By: NARMADHA S &copy;</p>
   </footer>
                    
     </body>
     </html>
-
-    people.html
-
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-            body{
-      background: linear-gradient(rgb(0, 0, 0) , rgb(31, 5, 110) );
-    }
-    
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 20px;
-    min-height: 10%;
-    margin-right: 60px;
-    font-size: 17px;
-}
-ul li{
-    display: inline-block;
-}
-ul li a{
-    text-decoration: double;
-    color: #ffffff;
-    padding: 5px 50px;
-    border: 1px solid transparent;
-    transition: 0.5 ease;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-}
-
-ul li a:hover{
-    background-color: black;
-    color: #fff;
-}
-.search{
-    width: 330px;
-    float:right;
-    margin-right: 20px;
-}
-.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #fff;
-    margin-top: 13px;
-    color: black;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-
-}
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #fff;
-    border: 2px solid#ffffff;
-    margin-top: 13px;
-    color:black;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-    
-}
-.btn:focus{
-    outline: none;
-}
-.srch:focus{
-    outline: none;
-
-}
-      
-        footer{
-
-        background-color:black;
-        height:30px;
-        bottom:0;
-        width:100%;
-        color:white;
-        position:absolute;
-        
-        }
-        header
-        {
-        background-color:darkblue;
-        height:10vh;
-        width:100%;
-        color:white;
-        }
-        header h2{
-        position:absolute;
-        color:white;
-        margin-top:10px;
-        margin-left:10px;
-        }
-        .search input{
-            width:18%;
-            height: 30px;
-
-        }
-        .search button{
-            color:white;
-            background-color: rgb(2, 3, 4);
-            padding: 5px;
-            text-align: center;
-        }
-        .search input,button{
-            position: absolute;
-            right: 880px;
-            font-size: 18px;
-            border-color:silver;
-        }
-        .small
-        {
-           width:200px;
-           height:200px;
-           margin:10px;
-        }
-        .border{
-        border-width:5px;
-        border-color:lightblue;
-        border-style:solid;
-        border-radius:50%;
-        }
-        .cirpic{
-            position:absolute;
-            top:35%;
-            margin-left: 40px;
-            padding: 0px;
-            
-        }
-        .text{
-           position: absolute;
-            top:55%;
-            margin-left: 20px;
-            font-size: 16px;
-            
-        }
-        .text2{
-            position:absolute;
-            top:61%;
-            margin-left:58px;
-        }
-    
-    </style>
-</head>
-<body>
-    <header>
-        <div class="main">
-        
-        <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="people.html">PEOPLE</a></li>
-        <li><a href="products.html">PRODUCTS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </div>
-    <div class="search" >
-        <input class="srch" type="search" name="" placeholder="type to search">
-        <a href="#"><button class="btn">Search</button></a>
-    </div>
-        <div class="cirpic">
-            <img class="small border" src="narmu.jpg" width="400px">
-            <img class="small border" src="RATAN.jpg" width="400px" >
-            <img class="small border" src="MUKESH.jpg" width="400px">
-            <img class="small border" src="SIMONE.jpg" width="400px" >
-            <img class="small border" src="NOEL.jpg" width="400px">
-            <img class="small border" src="MEGHA.jpg" width="400px" >
-        </div>
-        <div class ="text">
-            <table cellpadding="87">
-                <tr div class="head">
-                    <th>NARMADHA</th>
-                    <th>RATAN TATA</th>
-                    <th>MUKESH TATA</th>
-                    <th>SIMONE TATA</th>
-                    <th>NOEL TATA</th>
-                    <th>MEGHA TATA</th>
-                </tr>
-            </table>
-        </div>
-        <div class="text2">
-            <table cellpadding="83">
-                <tr>
-                    <td>CEO</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CEO<br>Co-Founder</td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CTO<br>Co-Founder</td>
-                    <td>Director</td>
-                    <td>Asst.Director</td>
-                    <td>Dy.Director</td>
-                </tr>
-            </table>
-        </div>
-    
-        <footer>
-             <p>Copyright @2023 Developed by NARMADHA S &copy; </p>
-      </footer>
-               
-</body>
-</html>
-```
-## OUTPUT:
-
-![alt text](<Screenshot 2024-04-28 193619.png>)
-![alt text](<Screenshot 2024-04-28 193706.png>)
-![alt text](<Screenshot 2024-04-28 193722.png>)
-![alt text](<Screenshot 2024-04-28 193736.png>)
-
-
+ ```
+ ## OUTPUT:
+![alt text](<Screenshot 2024-05-06 142524.png>)
+![alt text](<Screenshot 2024-05-06 142539.png>)
+![alt text](<Screenshot 2024-05-06 142557.png>)
+![alt text](<Screenshot 2024-05-06 142502.png>)
 
 ## RESULT:
-The program for designing software company website using HTML and CSS is completed successfully.
+The program for designing sofware company website using HTML and CSS is completed successfully.
+
+
+
